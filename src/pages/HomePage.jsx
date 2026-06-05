@@ -114,7 +114,7 @@ export default function HomePage() {
       {/* ══ WHY CHOOSE US — Bento Grid ════════════════════ */}
       <section style={{ padding: 'var(--section-gap) var(--page-pad)', maxWidth: '1440px', margin: '0 auto' }}>
         <div style={{ textAlign: 'center', marginBottom: '48px' }}>
-          <span className="section-eyebrow">Why ULTRADRIVE</span>
+          <span className="section-eyebrow">Why ZEE-BMW</span>
           <h2 className="section-title">BUILT FOR THE BEST</h2>
         </div>
 

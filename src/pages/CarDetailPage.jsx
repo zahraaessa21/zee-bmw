@@ -88,7 +88,7 @@ export default function CarDetailPage() {
   // ── Loading State ─────────────────────────────────────── 
   if (loading) return (
     <div style={{
-      paddingTop: '80px', display: 'flex',
+      paddingTop: '72px', display: 'flex',
       alignItems: 'center', justifyContent: 'center',
       minHeight: '100vh',
     }}>
@@ -99,7 +99,7 @@ export default function CarDetailPage() {
   )
 
   if (!car) return (
-    <div style={{ paddingTop: '80px', textAlign: 'center', padding: '10rem 2rem' }}>
+    <div style={{ paddingTop: '72px', textAlign: 'center', padding: '10rem 2rem' }}>
       <h2 style={{ fontFamily: 'Montserrat', color: '#c1c7d3' }}>Vehicle not found</h2>
       <button onClick={() => navigate('/fleet')} className="btn-primary" style={{ marginTop: '2rem' }}>
         Back to Fleet
@@ -108,7 +108,7 @@ export default function CarDetailPage() {
   )
 
   return (
-    <main style={{ paddingTop: '80px' }}>
+    <main style={{ paddingTop: '72px' }}>
       
       {/* ══════════════════════════════════════════════════
           HERO IMAGE + GALLERY THUMBNAILS
@@ -260,7 +260,7 @@ export default function CarDetailPage() {
           ══════════════════════════════════════════════════ */}
       <section style={{
         maxWidth: '1440px', margin: '0 auto',
-        padding: '6rem 80px',
+        padding: 'var(--section-gap) var(--page-pad)',
         display: 'grid',
         gridTemplateColumns: '1fr 380px',
         gap: '3rem',
@@ -608,5 +608,5 @@ const SAMPLE_CAR = {
 const SAMPLE_REVIEWS = [
   { rating: 5, text: 'Absolutely breathtaking machine. The M4 Competition exceeded every expectation. Delivery was flawless.', author: 'James K.', date: 'OCT 2024' },
   { rating: 5, text: 'The level of service matches the caliber of the car. Concierge delivery to my hotel was a perfect touch.', author: 'Sarah M.', date: 'SEP 2024' },
-  { rating: 5, text: 'Third time renting from ULTRADRIVE. The M4 is simply in a different league. Pure engineering excellence.', author: 'Rami A.', date: 'SEP 2024' },
+  { rating: 5, text: 'Third time renting from ZEE-BMW. The M4 is simply in a different league. Pure engineering excellence.', author: 'Rami A.', date: 'SEP 2024' },
 ]

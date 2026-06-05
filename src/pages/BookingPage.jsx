@@ -22,7 +22,7 @@ const PICKUP_LOCATIONS = [
   'Beirut Rafic Hariri International Airport',
   'Downtown Beirut — Concierge',
   'Ashrafieh, Beirut',
-  'ULTRADRIVE Private Hub — Jounieh',
+  'ZEE-BMW Private Hub — Jounieh',
 ]
 
 const INSURANCE_OPTIONS = [
@@ -130,7 +130,7 @@ export default function BookingPage() {
   // ── Success Screen ────────────────────────────────────── 
   if (bookingSuccess) return (
     <main style={{
-      paddingTop: '80px', minHeight: '100vh',
+      paddingTop: '72px', minHeight: '100vh',
       display: 'flex', alignItems: 'center', justifyContent: 'center',
     }}>
       <div className="glass-card" style={{
@@ -172,14 +172,14 @@ export default function BookingPage() {
   )
 
   if (loading) return (
-    <div style={{ paddingTop: '80px', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
+    <div style={{ paddingTop: '72px', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh' }}>
       <span style={{ color: '#a1c9ff', fontFamily: 'JetBrains Mono', fontSize: '12px', letterSpacing: '0.1em' }}>LOADING...</span>
     </div>
   )
 
   return (
-    <main style={{ paddingTop: '80px', minHeight: '100vh' }}>
-      <div style={{ maxWidth: '1440px', margin: '0 auto', padding: '6rem 80px' }}>
+    <main style={{ paddingTop: '72px', minHeight: '100vh' }}>
+      <div style={{ maxWidth: '1440px', margin: '0 auto', padding: 'var(--section-gap) var(--page-pad)' }}>
         
         {/* ── 3-Step Progress Indicator ─────────────────── */}
         {/* This is the stepper from the Secure Booking design */}

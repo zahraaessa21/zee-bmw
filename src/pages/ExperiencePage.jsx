@@ -38,7 +38,7 @@ const PILLARS = [
 
 // Fallback data if DB tables don't exist yet
 const FALLBACK_TESTIMONIALS = [
-  { id:1, name:'James Al-Khatib', role:'CEO, Venture Capital', text:'The M8 Gran Coupe exceeded every expectation. ULTRADRIVE operates at a level I haven\'t experienced anywhere else.', rating:5, city:'Beirut' },
+  { id:1, name:'James Al-Khatib', role:'CEO, Venture Capital', text:'The M8 Gran Coupe exceeded every expectation. ZEE-BMW operates at a level I haven\'t experienced anywhere else.', rating:5, city:'Beirut' },
   { id:2, name:'Sarah Mansour',   role:'Architect',            text:'I rented the M4 Competition for a weekend drive. Absolute perfection. The car was impeccably presented throughout.', rating:5, city:'Dubai' },
   { id:3, name:'Rami Haddad',     role:'Entrepreneur',         text:'Three rentals in six months and never a single issue. The fleet quality is extraordinary. This is the gold standard.', rating:5, city:'Beirut' },
 ]
@@ -154,7 +154,7 @@ export default function ExperiencePage() {
 
         <div style={{ position: 'relative', zIndex: 1, padding: '0 var(--page-pad)', maxWidth: '900px' }}>
           <span className="section-eyebrow" style={{ display: 'block', textAlign: 'center', marginBottom: '24px' }}>
-            The ULTRADRIVE Story
+            The ZEE-BMW Story
           </span>
           <h1 style={{
             fontFamily: 'Montserrat', fontSize: 'clamp(36px, 6vw, 80px)',

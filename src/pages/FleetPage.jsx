@@ -90,7 +90,7 @@ export default function FleetPage() {
   // ↑ Recalculate when any of these values change
 
   return (
-    <main style={{ paddingTop: '80px', minHeight: '100vh' }}>
+    <main style={{ paddingTop: '72px', minHeight: '100vh' }}>
       <div style={{ maxWidth: '1440px', margin: '0 auto', padding: '6rem 80px 6rem' }}>
         
         {/* ── Page Header + Filters ───────────────────── */}

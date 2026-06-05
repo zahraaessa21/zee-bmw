@@ -13,11 +13,11 @@ export default function NotFoundPage() {
 
   return (
     <main style={{
-      paddingTop: '80px', minHeight: '100vh',
+      paddingTop: '72px', minHeight: '100vh',
       display: 'flex', alignItems: 'center', justifyContent: 'center',
       flexDirection: 'column', textAlign: 'center', padding: '2rem',
     }}>
-      {/* Big "404" in the ULTRADRIVE primary color */}
+      {/* Big "404" in the ZEE-BMW primary color */}
       <div style={{
         fontFamily: 'Montserrat, sans-serif',
         fontSize: 'clamp(80px, 15vw, 160px)',

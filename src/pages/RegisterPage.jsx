@@ -156,7 +156,7 @@ export default function RegisterPage() {
             fontFamily: 'Montserrat', fontSize: '26px', fontWeight: 800,
             color: '#a1c9ff', textTransform: 'uppercase', letterSpacing: '-0.02em',
           }}>
-            ULTRADRIVE
+            ZEE-BMW
           </div>
           <p style={{ fontFamily: 'Inter', fontSize: '15px', color: '#c1c7d3', marginTop: '6px' }}>
             Create your account
